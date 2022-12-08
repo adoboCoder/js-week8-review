@@ -2,8 +2,8 @@
 /**********************************/
 // debugging section
 
-myGrades = [100, 100, 90, 73, 78, 94, 86];
-myAverage = 0;
+let myGrades = [100, 100, 90, 73, 78, 94, 86];
+let myAverage = 0;
 
 // insert a breakpoint to the line below
 for (let i = 1; i <= myGrades.length; i++) { 
@@ -45,7 +45,7 @@ const addNumbersRestricted = (first, second) => {
 };
 
 console.log(addNumbersRestricted(2, 5));
-// console.log(addNumbersRestricted("some", "word")); // uncomment here, then insert breakpoint here
+//console.log(addNumbersRestricted("some", "word")); // uncomment here, then insert breakpoint here
 
 // create custom error
 class InputError extends Error { }

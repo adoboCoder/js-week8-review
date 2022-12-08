@@ -14,14 +14,14 @@
         let age = document.getElementById("age");
         let hobbies = document.getElementById("hobbies");
 
-        // sessionStorage are forgotten at the end of each session
+        //sessionStorage are forgotten at the end of each session
         //sessionStorage.setItem("name", "Jonathan");
         //sessionStorage.setItem("age", 36);
         //sessionStorage.setItem("hobbies", "reading, playing guitar, software development, and travel");
 
         greeting.innerText += sessionStorage.getItem("name");
         age.innerText = sessionStorage.getItem("age");
-        hobbies.innerText = sessionStorage.getItem("hobbies")
+        hobbies.innerText = sessionStorage.getItem("hobbies");
     </script>
 </body>
 </html>
