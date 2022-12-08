@@ -3,7 +3,7 @@
 * In C# (type-safe language), an integer is statically-typed -> int aNumber = 15;
 * In JavaScript (loose language), variables are dynamically-typed -> let aNumber = 15;
 * What happens in each language if we try this line of code? -> aNumber += "I am not even close to being a number!";
-* In C#, the IDE will complain and give you an error -> CS0029: Cannot implicityly convert type 'string' to 'int'
+* In C#, the IDE will complain and give you an error -> CS0029: Cannot implicity convert type 'string' to 'int'
 ****************************************************************************/
 console.log("start of type-safety & debugging demo");
 let aNumber = 15;
